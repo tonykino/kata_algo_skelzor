@@ -1,8 +1,8 @@
 class TechnicalTest::One
   def sum_with_for_loop(array)
   	sum = 0
-    array.each do |value|
-    	sum += value
+    for i in 0...array.length
+    	sum += array[i]
     end
     sum
   end
