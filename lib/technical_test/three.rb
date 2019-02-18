@@ -6,7 +6,6 @@ class TechnicalTest::Three
     fibo = [0, 1]
     (number_of_element-1).times do
       fibo << fibo[-1] + fibo[-2]
-      p fibo
     end
     fibo.last
   end
